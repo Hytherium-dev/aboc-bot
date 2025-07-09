@@ -9,7 +9,7 @@ export async function getCuteUrl() {
     headers: {
       'User-Agent': 'justinbeckwith:awwbot:v1.0.0 (by /u/justinblat)',
     },
-  });
+  });gdehbete
   if (!response.ok) {
     let errorText = `Error fetching ${response.url}: ${response.status} ${response.statusText}`;
     try {
